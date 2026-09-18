@@ -27,7 +27,7 @@ psutil==5.9.8
 # Web Scraping & File Processing
 beautifulsoup4==4.12.3
 lxml==6.1.1
-pypdf==6.10.2
+pypdf==6.16.1
 requests==2.33.0
 duckduckgo-search==8.1.1
 
@@ -44,10 +44,10 @@ llama-index-readers-file>=0.5.0  # Updated for llama-index-core 0.14.x
 
 # Image Generation Dependencies (without torch)
 diffusers>=0.38.0
-transformers>=4.50.3,<5.0  # ComfyUI needs >=4.50.3, diffusers incompatible with 5.x
-accelerate==1.2.1
+transformers>=5.17.0,<6.0  # ComfyUI needs >=4.50.3, diffusers incompatible with 5.x
+accelerate==1.15.0
 safetensors>=0.4.0
-Pillow>=12.2.0  # aligned with requirements.txt (was ==12.2.0; drift fixed P3-10b)
+Pillow>=12.3.0  # aligned with requirements.txt (was ==12.2.0; drift fixed P3-10b)
 
 # ComfyUI / Video Generation Dependencies
 torchsde>=0.2.6
